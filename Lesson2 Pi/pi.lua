@@ -50,7 +50,7 @@ end
 -- 方法 : 藉由 內接多邊形 與 外切多邊形 逼近方式找圓周 ,進而求出近似 pi
 local running = true -- 代表目前程式是否執行中
 while (running) do -- 當 running 為 true,執行下方程式
-    io.write("請輸入圓的半徑(或0離開)?") -- 在螢幕上輸出請使用者輸入
+    io.write("Please input 請輸入圓的半徑(或0離開)?") -- 在螢幕上輸出請使用者輸入
     local r = io.read("n") --等待並讀取使用者輸入數字(n)
 
     if (r) then -- true 或 false,非 nil 都是 true
